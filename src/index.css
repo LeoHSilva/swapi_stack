@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+	--pinkish-grey: #c4c4c4;
+	--green-teal: #0ab463;
+	--emerald: #0094ff;
+	--warm-grey-75: #848484bf 75%;
+	--gainsboro: #dadada;
+}
+
+#header {
+	height: 50px;
+	margin: 0 0 30px;
+	box-shadow: 0 2px 0 0 #dadada;
+	background-color: #fff;
+	display: flex;
+}
+
+.shadowBox {
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0 var(--warm-grey-75);
+	border: solid 1px var(--gainsboro);
+	background-color: #fff;
+}
+
+.searchBox {
+	@apply flex bg-white p-[30px];
+	width: 410px;
+	height: 230px;
+}
+
+.searchResults {
+	@apply flex bg-white p-[30px];
+	width: 582px;
+	height: 582px;
+}
+
+.SWStarter {
+	padding-top: 14px;
+	width: 98px;
+	height: 22px;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #0ab463;
+}
+
+html {
+	background-color: #ededed;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
+
+.onePixel {
+	height: 1px;
+}
+
+.bg-green-teal {
+	background-color: var(--green-teal);
+}
+
+.bg-pinkish-grey {
+	background-color: var(--pinkish-grey);
+}
+
+.text-emerald {
+	color: var(--emerald);
+}
