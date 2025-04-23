@@ -40,33 +40,35 @@ This project provides a Dockerized environment for working with data from Star W
    docker exec -it swapi_docker_container_name bash
    ```
 5. Install Dependacy:
-
-```bash
-	pnpm setup:ui
-	pnpm setup:api
-```
+   ```bash
+   pnpm setup:ui
+   pnpm setup:api
+   ```
 
 6. Build UI and API
-
-```bash
-	pnpm build:ui
-	pnpm build:api
-```
+   ```bash
+   pnpm build:ui
+   pnpm build:api
+   ```
 
 7. Serve UI and API:
+   ```bash
+   pnpm serve:ui
+   pnpm serve:api
+   ```
 
-```bash
-	pnpm serve:ui
-	pnpm serve:api
-```
-
-8. Seed DB
-   After the API starts serving, go to [localhost:3001/seeds](localhost:3001/seeds), to seed the Database
+8. Seed DB:
+-   After the API starts serving, go to [localhost:3001/seeds](localhost:3001/seeds), to seed the Database
 
 ## Access Pages
 
 - To access the UI, on your browser, go to [localhost:3000/](localhost:3000/)
-- To access the API's statistics, go to [localhost:3001/](localhost:3001/statistics)
+- To access the API's statistics, go to [localhost:3001/statistics](localhost:3001/statistics)
+
+
+## Questions and Answers
+
+- I've addressed the question on the file -> [questions.md](questions.md)
 
 ## Contributing
 
