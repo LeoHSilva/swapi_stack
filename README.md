@@ -23,41 +23,32 @@ This project provides a Dockerized environment for working with data from Star W
    cd swapi_docker
    ```
 
-2. Build the Docker container:
 
-   ```bash
-   docker-compose build
-   ```
+2. Open the repository in a development environment that supports dev containers (e.g., VS Code).
 
-3. Start the container:
+3. The dev container will automatically build and set up the environment.
 
-   ```bash
-   docker-compose up
-   ```
+## Usage
 
-4. Access the development environment:
-   ```bash
-   docker exec -it swapi_docker_container_name bash
-   ```
-5. Install Dependacy:
+1. Install Dependacy:
    ```bash
    pnpm setup:ui
    pnpm setup:api
    ```
 
-6. Build UI and API
+2. Build UI and API
    ```bash
    pnpm build:ui
    pnpm build:api
    ```
 
-7. Serve UI and API:
+3. Serve UI and API:
    ```bash
    pnpm serve:ui
    pnpm serve:api
    ```
 
-8. Seed DB:
+4. Seed DB:
 -   After the API starts serving, go to [localhost:3001/seeds](localhost:3001/seeds), to seed the Database
 
 ## Access Pages
